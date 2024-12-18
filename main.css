@@ -1,0 +1,74 @@
+h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 200px; /* Указывает ширину изображения */
+    height: auto; /* Автоматически подстраивает высоту */
+}
+
+.caption {
+    margin-right: 20px; /* Отступ справа от подписи */
+}
+
+p {
+    font-weight: normal; /* Убирает жирность шрифта */
+    font-size: 25px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        color:#000;
+        font-size: 24px;
+        margin-left: 20px;
+}
+
+.menu {
+    background-color: #ffe5d1; /* Светло-персиковый цвет меню */
+    font-size: 18px;
+}
+
+button {
+    background-color: #ffe5d1; 
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffcba4;
+}
+
+
+
+.title-bar {
+    justify-content: space-between;
+}
+
+
+
+.shelter {
+    margin-right: 20px;
+}
+
+.user {
+    margin-left: 20px;
+}
+
+.menu li a.active {
+    color: #333; /* измените цвет текста на ваш выбор */
+    font-weight: bold; /* измените стиль шрифта на ваш выбор */
+}   

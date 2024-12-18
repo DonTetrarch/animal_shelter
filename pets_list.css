@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; 
+    justify-content: center; 
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.card-info button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        color:#000;
+        font-size: 24px;
+        margin-left: 20px;
+}
+
+.menu {
+    background-color: #ffe5d1; 
+    font-size: 20px;
+}
+
+.menu li a.active {
+    color: #333;
+    font-weight: bold; 
+}
+
+
+label[for="species"] {
+    font-size: 20px; 
+}
+
+#species {
+    font-size: 20px;
+}

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffdab9; /* Персиковый цвет фона */
+}
+
+.form-container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+
+.title-bar {
+    background-color: #ffcba4; /* Персиковый цвет панели заголовка */
+    color: #000;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.menu {
+    background-color: #ffe5d1; /* Светло-персиковый цвет меню */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 5px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content {
+    padding: 10px;
+}
+
+.form-group input {
+    width: 97%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcba4; /* Персиковый цвет панели заголовка */
+    border: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.form-group button:hover {
+    background-color: #fdb38c; /* Светло-персиковый цвет меню */
+    
+}
+
+#username, #password {
+    font-size: 16px;
+}
